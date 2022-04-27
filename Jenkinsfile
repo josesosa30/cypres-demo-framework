@@ -11,9 +11,9 @@ pipeline
             
     }
     
-    options {
+    /*options {
      ansiColor('xterm')
-    }
+    }*/
     
     stages{
         stage('Build'){
