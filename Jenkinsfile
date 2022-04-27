@@ -37,7 +37,7 @@ pipeline
     
     post{
         success {
-      mail to: jose.sosa090530@gmail.com, subject: 'The Pipeline success :('
-    }
+              mail to: jose.sosa090530@gmail.com, subject: 'The Pipeline success'
+            }
     }
 }
