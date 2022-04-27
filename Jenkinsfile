@@ -36,8 +36,8 @@ pipeline
     }
     
     post{
-        success {
-            mail to: jose.sosa090530@gmail.com, subject: 'The Pipeline success'
-            }
+        always { 
+            echo 'The Pipeline its ok'
+        }
     }
 }
