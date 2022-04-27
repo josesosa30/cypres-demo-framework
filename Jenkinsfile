@@ -36,8 +36,8 @@ pipeline
     }
     
     post{
-        always{
-            publishHTML([allowMissing:false, alwaysLinkToLastBuild:false, keepAll: true, reportDir: 'cypress/report', reportFiles: 'index.html', reportName:'HTML Report', reportTitles:''])
-        }
+        success {
+      mail to: jose.sosa090530@gmail.com, subject: 'The Pipeline success :('
+    }
     }
 }
