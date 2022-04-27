@@ -11,7 +11,7 @@ pipeline
             
     }
     
-    option {
+    options {
      ansicolor('xterm')
     }
     
